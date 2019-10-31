@@ -47,3 +47,5 @@
 </body>
 </html>
 ~~~
+
+[sample](https://nak-244.github.io/tips_typing-animation_css/ "サンプル")
