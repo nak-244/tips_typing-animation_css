@@ -8,6 +8,17 @@
   <h1>タイプライターのようなエフェクトを任意のテキストに与えます。</h1>
 <p class="line-1 anim-typewriter">Animation typewriter style using css steps()</p>
 <style type="text/css">
+html{
+  min-height: 100%;
+  overflow: hidden;
+}
+body{
+  height: calc(100vh - 8em);
+  padding: 4em;
+  color: rgba(255,255,255,.75);
+  font-family: 'Anonymous Pro', monospace;
+  background-color: rgb(25,25,25);
+}
 .line-1{/*対象のテキスト*/
     position: relative;
     top: 50%;
@@ -15,6 +26,7 @@
     margin: 0 auto;
     border-right: 2px solid rgba(255,255,255,.75);
     font-size: 180%;
+    color: #FFFFFF;
     text-align: center;
     white-space: nowrap;
     overflow: hidden;
