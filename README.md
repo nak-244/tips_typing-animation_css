@@ -3,6 +3,8 @@
 
 [via : Typewriter animation pure CSS](https://codepen.io/thiagoteles/pen/ogoxLw "Typewriter animation pure CSS")
 
+### CSS
+
 ~~~CSS
 .line-1{/*対象のテキスト*/
     position: relative;
@@ -30,4 +32,18 @@
   from{border-right-color: rgba(255,255,255,.75);}
   to{border-right-color: transparent;}
 }
+~~~
+
+### html
+~~~html
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>サイトのタイトル</title>
+</head>
+<body>
+<p class="line-1 anim-typewriter">Animation typewriter style using css steps()</p>
+</body>
+</html>
 ~~~
